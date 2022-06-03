@@ -7,7 +7,7 @@ api=FastAPI()
 
 # ② 通过路由装饰器装饰定义的返回html网页方法
 # 路由装饰器就可以给函数添加新的功能,可以找到对应请求地址中的数据
-# app:创建出来的fastapi对象名
+# api:创建出来的fastapi对象名
 # get:请求的方式 get post put
 # /render.html:请求行中的 资源路径
 @api.get('/render.html')
